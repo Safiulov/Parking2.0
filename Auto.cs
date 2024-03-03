@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TESTREALISE
+﻿namespace WebApplication2.DB
 {
     public class Auto
     {
@@ -14,7 +8,6 @@ namespace TESTREALISE
         public string Тип { get; set; }
         public string Госномер { get; set; }
         public int Год { get; set; }
-     
-
+  
     }
 }

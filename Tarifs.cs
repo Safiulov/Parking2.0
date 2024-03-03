@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TESTREALISE
+﻿namespace WebApplication2.DB
 {
     public class Tarifs
     {
@@ -12,6 +6,6 @@ namespace TESTREALISE
         public string Название { get; set; }
         public string Условие { get; set; }
         public string Время_действия { get; set; }
-        public int? Стоимость { get; set; } 
+        public int? Стоимость { get; set; }
     }
 }
